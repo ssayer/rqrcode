@@ -1,9 +1,15 @@
+GIT
+  remote: git@github.com:ssayer/rqrcode_core.git
+  revision: 08b47858f0f68b257cd2ff2e861c93268fa8c245
+  branch: multi_mode_support
+  specs:
+    rqrcode_core (1.1.0)
+
 PATH
   remote: .
   specs:
     rqrcode (2.0.0)
       chunky_png (~> 1.0)
-      rqrcode_core (~> 1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -18,7 +24,6 @@ GEM
     rake (13.0.3)
     regexp_parser (2.1.1)
     rexml (3.2.5)
-    rqrcode_core (1.1.0)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
       rspec-expectations (~> 3.10.0)
@@ -61,6 +66,7 @@ DEPENDENCIES
   bundler (~> 2.0)
   rake (~> 13.0)
   rqrcode!
+  rqrcode_core!
   rspec (~> 3.5)
   standardrb (~> 1.0)
 
